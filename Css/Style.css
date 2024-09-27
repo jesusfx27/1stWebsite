@@ -21,11 +21,19 @@ body{
     font-size: 16px;
     font-family: "Krub", sans-serif;
 }
-
-.title {
+h1,h2,h3{
     text-align: center;
+}
+h1{
     font-size: 3.8rem;
-    
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 1.8rem;
 }
 
 .title span{
@@ -79,3 +87,24 @@ body{
     width: 100%;
     background-color: rgb(0, 0, 0, .7);
 }
+
+.contenido-hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secundario);
+    max-width: 10%;
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: bold;  
+}
+
